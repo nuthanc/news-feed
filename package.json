@@ -1,0 +1,29 @@
+{
+  "name": "news-feed",
+  "version": "1.0.0",
+  "description": "My terminal based News Feed",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuthanc/news-feed.git"
+  },
+  "author": "Nuthan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuthanc/news-feed/issues"
+  },
+  "homepage": "https://github.com/nuthanc/news-feed#readme",
+  "devDependencies": {
+    "@types/sqlite3": "^3.1.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^3.0.0",
+    "sqlite3": "^5.1.6"
+  }
+}
